@@ -1,0 +1,43 @@
+{
+    "LoadBalancers": [
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-west-2:403088690353:loadbalancer/app/rent-a-room-alb/0e2a5a9c3ec277c7",
+            "DNSName": "rent-a-room-alb-1006618600.us-west-2.elb.amazonaws.com",
+            "CanonicalHostedZoneId": "Z1H1FL5HABSF5",
+            "CreatedTime": "2025-12-02T09:51:21.298000+00:00",
+            "LoadBalancerName": "rent-a-room-alb",
+            "Scheme": "internet-facing",
+            "VpcId": "vpc-073ca0ea2d8020fdd",
+            "State": {
+                "Code": "provisioning"
+            },
+            "Type": "application",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-west-2c",
+                    "SubnetId": "subnet-01cc609ed2cc0f896",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-west-2b",
+                    "SubnetId": "subnet-098a24624f0543a77",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-west-2a",
+                    "SubnetId": "subnet-09a6b20fb4bab480b",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-west-2d",
+                    "SubnetId": "subnet-0a8c685dd4b69dcbb",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "SecurityGroups": [
+                "sg-02106d7dbf2e7d40e"
+            ],
+            "IpAddressType": "ipv4"
+        }
+    ]
+}
